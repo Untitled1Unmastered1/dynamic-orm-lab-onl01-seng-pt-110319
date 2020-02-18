@@ -55,7 +55,7 @@ class InteractiveRecord
   
   def self.find_by(hash)
     sql = <<-SQL
-     SELECT * FROM 
+     SELECT * FROM hash WHERE 
   
 
 
