@@ -44,8 +44,8 @@ class InteractiveRecord
     values = []
     self.class.column_names.each do |c|
       values << "'#{send(col_name)}'" unless send(col_name).nil?
-      
-    self.class_values 
+    end 
+    values.join(", ")
   end 
   
   
