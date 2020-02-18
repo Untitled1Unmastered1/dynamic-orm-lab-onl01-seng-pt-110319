@@ -12,5 +12,6 @@ class InteractiveRecord
     
     sql = "pragma table info('#{table_info}')"
     
+    
   
 end
