@@ -3,6 +3,6 @@ require 'active_support/inflector'
 
 class InteractiveRecord
   
-  def 
+  def self.table_name 
   
 end
