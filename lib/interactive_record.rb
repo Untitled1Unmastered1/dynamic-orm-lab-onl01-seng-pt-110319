@@ -53,7 +53,7 @@ class InteractiveRecord
     DB[:conn].execute(sql, name)
   end 
   
-  def self.find(?)
+  def self.find()
     sql = <<-SQL
      SELECT * FROM table WHERE 
   
