@@ -55,7 +55,7 @@ class InteractiveRecord
   
   def self.find(?)
     sql = <<-SQL
-     SELECT * FROM 
+     SELECT * FROM table WHERE 
   
 
 
